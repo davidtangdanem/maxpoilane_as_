@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvValidationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/list_impair"
+        android:gravity="center"
+        android:text="@string/validation_de_l_echange"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/llNomSignataire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="Commentaire"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/etComment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#ffffff"
+            android:gravity="top|left"
+            android:lines="5"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:minLines="5"
+             
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSignatureTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Sélectionnez le destinataire de l&apos;échange"
+    
+        android:textSize="20sp"
+        android:textStyle="italic" >
+        
+    </TextView>
+ 		<Spinner
+                android:id="@+id/spinnerAgent"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                
+              
+                android:textSize="20dp" >
+            </Spinner>
+    
+</LinearLayout>

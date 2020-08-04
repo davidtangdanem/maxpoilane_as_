@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/rapport_titre"
+                android:textSize="22dp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TexteDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/rapport_date"
+                android:textSize="22dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:editable="false"
+                android:padding="10dp"
+                android:selectAllOnFocus="true"
+                android:text="" >
+            </EditText>
+            
+            
+             <TextView
+                android:id="@+id/TexteHeure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/rapport_heure"
+                android:textSize="22dp" 
+                android:visibility="gone">
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditHeure"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:editable="false"
+                android:padding="10dp"
+                android:selectAllOnFocus="true"
+                android:text="" 
+                android:visibility="gone">
+            </EditText>
+
+            
+            <TextView
+                android:id="@+id/TexteTypeActivite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/rapport_typeactivite"
+                android:textSize="22dp" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinnerTypeActivite"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp" >
+            </Spinner>
+            
+            <TextView
+                android:id="@+id/TexteCommentaire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/rapport_commentaire"
+                android:textSize="22dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditCommentaire"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:editable="true"
+                android:padding="10dp"
+                android:lines="4"
+                android:gravity="top"
+                android:selectAllOnFocus="true"
+                android:text="" >
+            </EditText>
+            
+
+            <TextView
+                android:id="@+id/TexteNextDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/rapport_nextdate"
+                android:textSize="22dp" >
+            </TextView>
+            
+             <Button
+                    android:id="@+id/bNextDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="15dp"
+                    android:text="@string/rapport_agenda" />
+
+            <LinearLayout
+            android:id="@+id/linearHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="20dp" >
+
+            <LinearLayout
+                android:id="@+id/linearHeurearrive"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#80ffffff"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TexteLblHeurarrive"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="@string/rapport_heuredebut"
+                    android:textSize="22dp"
+                     >
+                </TextView>
+
+              
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="20dp" >
+
+                    <ImageButton
+                        android:id="@+id/imageButtonGo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_vertical"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/refresh"
+                         />
+
+                    <TimePicker
+                        android:id="@+id/timePickerHourDebut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginRight="20px"
+                        android:textSize="20sp" >
+                    </TimePicker>
+                </LinearLayout>
+
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearHeuredepart"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#80ffffff"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TexteLblHeuredepart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="@string/rapport_heurefin"
+                    android:textSize="22dp">
+                </TextView>
+
+             
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="20dp" >
+
+                    <TimePicker
+                        android:id="@+id/timePickerHourFin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginRight="20px"
+                        android:textSize="20sp" >
+                    </TimePicker>
+
+                    <ImageButton
+                        android:id="@+id/imageButtonStop"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_vertical"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/refresh" />
+                </LinearLayout>
+
+              </LinearLayout>
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

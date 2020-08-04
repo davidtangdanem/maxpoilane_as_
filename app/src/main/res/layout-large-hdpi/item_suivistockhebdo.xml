@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="1dip"
+    android:paddingTop="1dip" >
+
+    <TextView
+        android:id="@+id/textCode"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:paddingLeft="6dip"
+        android:textSize="14dip" />
+
+    <TextView
+        android:id="@+id/textLbl"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:paddingLeft="6dip"
+        android:textSize="14dip" />
+
+    <TextView
+        android:id="@+id/stockj1"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+           android:gravity="center"
+        android:paddingLeft="6dip"
+        android:textSize="14dip" />
+
+    <TextView
+        android:id="@+id/qfact"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:paddingLeft="6dip"
+           android:gravity="center"
+        android:textSize="14dip" />
+
+    <TextView
+        android:id="@+id/qavoir"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:paddingLeft="6dip"
+        android:textSize="14dip" />
+
+    <TextView
+        android:id="@+id/qin"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+      android:gravity="center"
+        android:paddingLeft="6dip"
+        android:textSize="14dip" />
+
+    <TextView
+        android:id="@+id/qout"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+   android:gravity="center"
+        android:paddingLeft="6dip"
+        android:textSize="14dip" />
+
+</LinearLayout>

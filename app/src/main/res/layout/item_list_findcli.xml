@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip" >
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_action_info" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+            />
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/iv2" />
+
+     <ImageView
+        android:id="@+id/iv4"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/iv3" />
+     <ImageView
+        android:id="@+id/iv5"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/iv4" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/iv2"
+        android:layout_toRightOf="@id/iv1"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvCode"
+                    android:layout_width="0px"
+                    android:layout_weight="40"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvNom"
+                    android:layout_width="0px"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvCode"
+                    android:layout_width="0px"
+                    android:layout_weight="40"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:visibility="invisible"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvRS"
+                    android:layout_width="0px"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvCP"
+                    android:layout_width="0px"
+                    android:layout_weight="40"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvVille"
+                    android:layout_width="0px"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

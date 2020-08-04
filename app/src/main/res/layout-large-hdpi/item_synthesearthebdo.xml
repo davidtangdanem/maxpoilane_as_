@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="1dip"
+    android:paddingTop="1dip" >
+
+    <TextView
+        android:id="@+id/textCode"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:paddingLeft="6dip"
+        android:textSize="14dip" />
+
+    <TextView
+        android:id="@+id/textLbl"
+        android:layout_width="0px"
+        android:layout_weight="60"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:textSize="14dip" />
+
+    <TextView
+        android:id="@+id/qteV"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:layout_weight="20"
+        android:gravity="center_horizontal"
+        android:textSize="14dip" />
+	<TextView
+        android:id="@+id/qteG"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+            android:gravity="center_horizontal"
+        android:layout_weight="20"
+        android:textSize="14dip" />
+	<TextView
+        android:id="@+id/mntht"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+            android:gravity="right"
+        android:layout_weight="20"
+        android:textSize="14dip" />
+ 
+
+</LinearLayout>

@@ -1,0 +1,616 @@
+<resources>
+
+    <string name="app_name">Max Poilane</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="separateur_morpion">¤</string>
+    <string name="stats">Historiques</string>
+    <string name="wsmsg_maj">Last updated:</string>
+    <string name="Yes">Oui</string>
+    <string name="No">Non</string>
+    <string name="activation_GPS_requise">Vous devez activer votre GPS pour poursuivre. Voulez-vous le faire maintenant ?</string>
+    <string name="Synchro">Synchro</string>
+	 <string name="hotline">Hotline</string>
+	
+    <string name="Carto">Carto</string>
+    <string name="Carto_maj">Mise à jour des Points d\'intérêts en cours</string>
+    <string name="Synchro_maj">Mise à jour des données en cours</string>
+    <string name="centrer">Centrer</string>
+    <string name="demo">Démo</string>
+    <string name="demo_on">Le mode "démo" est enclenché</string>
+    <string name="demo_off">Le mode "démo" est arrêté</string>
+    <string name="tournee_on">Le mode "tournée" est enclenché</string>
+    <string name="tournee_off">Le mode "tournée" est arrêté</string>
+    <string name="centrer_carte">Centrer dynamiquement la carte sur ma position</string>
+    <string name="centrer_carte_not">Ne pas centrer la carte sur ma position</string>
+    <string name="map_api_key">09WYiZfadJ7YB3woB2NQSpTacfJED5jEKWNFDKg</string>
+    <string name="Geocode">Géocoder</string>
+    <string name="Stock">Stock</string>
+    <string name="Stock_et_commande">Historique</string>
+    <string name="Effectuer_commande">Effectuer une facture</string>
+    <string name="Naviguer">Naviguer</string>
+    <string name="Appeler">Appeler</string>
+    <string name="ficheclient">Fiche client</string>
+     <string name="contact">Contacts</string>
+     <string name="rapportactivite">Rapport d\'activité</string>
+     <string name="listemateriel">Matériel</string>
+     <string name="listematerielclient">Matériel client</string>
+      <string name="listepretmateriel">Liste prêt matériel</string>
+      <string name="listemachine">Liste machine</string>
+     
+     
+     
+     
+    <string name="POI">POI</string>
+    <string name="Tournee">Tournée</string>
+    <string name="menu_bilanjour">Bilan de la journée</string>
+    <string name="Facture">Faire un BL</string>
+    <string name="BL">Faire un Bon de livraison</string>
+    <string name="Avoir">Faire un Avoir</string>
+    <string name="Retour">Faire un Retour marchandises</string>
+    <string name="b_toggle_retour">Retour</string>
+    <string name="b_toggle_avoir">Avoir</string>
+    <string name="Simulation">Simulation</string>
+    <string name="Client">Client</string>
+    <string name="Prospect">Prospect</string>
+    <string name="de">de</string>
+    <string name="a">à</string>
+    <string name="m">m</string>
+    <string name="km">km</string>
+    <string name="Lundi">Lundi</string>
+    <string name="Mardi">Mardi</string>
+    <string name="Mercredi">Mercredi</string>
+    <string name="Jeudi">Jeudi</string>
+    <string name="Vendredi">Vendredi</string>
+    <string name="Samedi">Samedi</string>
+    <string name="Dimanche">Dimanche</string>
+    <string name="Heure">Heure</string>
+    <string name="Date">Date</string>
+    <string name="Fermeture">Fermeture</string>
+    <string name="Vacances">Vacances</string>
+    <string name="select_date_time_tournee">Veuillez sélectionner une date ainsi que l\'horaire pour votre tournée.</string>
+    <string name="actuellement_ferme">actuellement fermé</string>
+    <string name="ouvert_jusqua">ouvert jusqu\' à</string>
+    <string name="list_clients_failed_geocode">Adresse des clients à mettre à jour</string>
+    <string name="Stock_esime">Stock estimé</string>
+    <string name="Stock_mini">Stock mini</string>
+    <string name="A_proximite">À proximité</string>
+    <string name="Ville">Ville</string>
+    <string name="Tel">Tél</string>
+    <string name="Consommation_par_semaine">Consommation par semaine</string>
+    <string name="derniere_visite">Dernière visite le</string>
+    <string name="stock_de">stock de</string>
+    <string name="Consommation_depuis_derniere_visite">Consommation depuis dernière visite</string>
+    <string name="mntht">Mnt HT :</string>
+    <string name="date_selectionnee">Date sélectionnée</string>
+    <string name="selectionner_date">Sélectionner une date</string>
+    <string name="Valider">Valider</string>
+    <string name="Annuler">Annuler</string>
+    <string name="Selectionner_date_future">Il est nécessaire de sélectionner une date future</string>
+    <string name="pas_de_resultat">Pas de résultat</string>
+    <string name="interrogation_temps_reel">Interrogation en cours&#8230;</string>
+    <string name="merci_patienter">Merci de patienter la fin de la récupération des clients</string>
+    <string name="merci_patienter2">Merci de patienter jusqu\'à la fin de la tâche et effectuer votre demande de nouveau.</string>
+    <string name="prevenir_par_email">Prévenir les clients</string>
+    <string name="email_sujet">Visite prochaine</string>
+    <string name="email_body">Bonjour,\n\nvotre stock de Redbull se réduit. Notre livreur viendra vous réapprovisionner le %s.\n\nBien cordialement</string>
+    <string name="zoom_please">Merci de zoomer pour effectuer cette tâche</string>
+    <string name="selection_zone">Sélectionner une zone</string>
+
+    <string-array name="zone_array">
+        <item>zone1</item>
+    </string-array>
+
+    <string name="CestOuvert">Open</string>
+    <string name="CestFerme">Désactiver</string>
+    <string name="Vu">Vu</string>
+    <string name="AVoir">à voir</string>
+    <string name="menu_param">Paramètres</string>
+    <string name="menu_plugins">Plugins</string>
+    <string name="menu_go">Clients</string>
+     <string name="livreur_select">xlivreur</string>
+    <string name="menu_inventaire">Inventaire véhicule</string>
+    <string name="menu_transfertStock">Transfert de stock</string>
+    <string name="menu_catalogue">Catalogue</string>
+    <string name="menu_ech_entre_livreur">Transfert de stock</string>
+    <string name="commande_print">Imprimer</string>
+    <string name="commande_printduplicata">Imprimer duplicata</string>
+     <string name="commande_pdf">Visualisation du PDF</string>
+    <string name="commande_valider">Valider</string>
+    <string name="commande_panier">Panier</string>
+    <string name="commande_tout">Gamme habituelle</string>
+    <string name="commande_annuler">Annuler</string>
+    <string name="commande_quitter">Quitter</string>
+    <string name="commande_aucunesaisie">Aucune quantité saisie</string>
+    <string name="commande_fichecli">Fiche client</string>
+    <string name="commande_print_msg">Attention vous ne pourrez plus modifier ou annuler ce document, imprimer ?</string>
+    <string name="commande_valider_msg">Confirmez-vous le BL ?</string>
+    <string name="commande_annuler_msg">Effacer ce document définitivement ?</string>
+    <string name="commande_impossibledelete">Vous ne pouvez plus annuler le document car vous l\'avez imprimé</string>
+    <string name="commande_impossibledelete2">Vous ne pouvez plus annuler le document car vous le client a déjà signé</string>
+    <string name="commande_notPrinted">Vous devez imprimer le document d\'abord</string>
+    <string name="commande_noLines">Le document est vide</string>
+    <string name="commande_Historique">Historique</string>
+    <string name="commande_Cadencier">Cadencier</string>
+    <string name="commande_quest">Questions</string>
+    <string name="commande_reglement">Réglement</string>
+    <string name="encours_du_client_depasse">L\'encours dû par le client a été dépassé.</string>
+     <string name="commande_duplicata">Voulez-vous imprimer le duplicata ?</string>
+    <string name="inventaire_encours">Impossible un inventaire est en cours et doit être transmis avant de pouvoir continuer</string>
+    <string name="encours_client">Encours : </string>
+    <string name="inventaire_connexion">Transmettre</string>
+    <string name="inventaire_print">Imprimer</string>
+    <string name="inventaire_quit">Quitter</string>
+    <string name="inventaire_resteainventorier">Reste à inventorier</string>
+    <string name="inventaire_anomalies">Anomalies</string>
+    <string name="transfertstock_encours">Impossible un réappro ou déchargement est en cours et doit être transmis avant de pouvoir continuer</string>
+    <string name="transfertstock_connexion">Transmettre</string>
+    <string name="transfertstock_print">Imprimer les anomalies</string>
+    <string name="transfertstock_quit">Quitter</string>
+    <string name="transfertstock_resteainventorier">Reste à inventorier</string>
+    <string name="transfertstock_anomalies">Anomalies</string>
+    <string name="menu_veuillezpatienter">Veuillez patienter&#8230;</string>
+    <string name="menu_miseajour">Mise à jour en cours&#8230;</string>
+    <string name="newversion_agendanem">Agenda nouvelle version disponible</string>
+    <string name="newversion_expresso">Max Poilane nouvelle version disponible</string>
+    <string name="newversion_questionem">Questionnaire nouvelle version disponible</string>
+    <string name="newversion_printer">Printer nouvelle version available</string>
+    <string name="newversion">Nouvelle version disponible</string>
+    <string name="prospect_titre">Fiche client</string>
+    <string name="prospect_company">Société</string>
+    <string name="prospect_code">Code</string>
+    <string name="prospect_civil">Civilité</string>
+    <string name="prospect_nom">Nom</string>
+    <string name="prospect_contact">Contact</string>
+  
+    <string name="prospect_adr1">Adresse 1</string>
+    <string name="prospect_cp">Code postal</string>
+    <string name="prospect_ville">Ville</string>
+    <string name="prospect_tel">Téléphone</string>
+    <string name="prospect_fax">Fax</string>
+    <string name="prospect_pays">Pays</string>
+    <string name="prospect_adr2">Adresse 2</string>
+    <string name="prospect_siret">Siret</string>
+    <string name="prospect_comment">Commentaire</string>
+    <string name="prospect_cattarif">Code tarif</string>
+    <string name="prospect_catcompta">Catégorie comptable</string>
+    <string name="prospect_typepdv">Type de commerce</string>
+    <string name="prospect_impossiblemsg">Impossible pour un nouveau client</string>
+    <string name="prospect_obligatoire"> est obligatoire.</string>
+    <string name="quest_obligatoire">Le questionnaire est obligatoire pour les nouveaux clients</string>
+    <string name="prospect_NouveuNumeroObligatoire">Veuillez générer un nouveau numero prospect.</string>
+    <string name="menu_prospectnewnumber">Générer numéro prospect</string>
+    <string name="prospect_problemenumauto">Plus de numéros disponibles ou problême de connexion</string>
+    <string name="prospect_zone">Zone</string>
+    <string name="prospect_jourpassage">Jour de passage</string>
+    <string name="prospect_numtva">Numéro de TVA</string>
+    <string name="prospect_prendrecde">Prendre la commande maintenant</string>
+
+<string name="prospect_raisonsocial">Raison sociale</string>
+
+
+
+<string name="prospect_contactgsm">Mobile</string>
+
+<string name="prospect_contactemail">e-Mail</string>
+
+<string name="prospect_enseigne">Enseigne</string>
+
+<string name="prospect_type">Type client</string>
+
+<string name="prospect_groupe">Groupe</string>
+
+<string name="prospect_typeetablissement">Type établissement</string>
+
+<string name="prospect_agent">Livré par</string>
+
+<string name="prospect_jourferm">Fermé le</string>
+
+<string name="prospect_sav">SAV</string>
+
+<string name="prospect_modereglement">Mode règlement</string>
+
+<string name="prospect_encours">En cours</string>
+
+<string name="prospect_facturesdues">Factures dues</string>
+
+<string name="prospect_avoirdispo">Avoir dispo</string>
+
+<string name="prospect_avancepaie">Paiement en avance</string>
+
+<string name="prospect_circuit">Livré par</string>
+<string name="prospect_lat">Latitude</string>
+<string name="prospect_lon">Longitude</string>
+
+
+ <string name="prospect_siret_14">14 caractères obligatoire pour le </string>
+ <string name="prospect_numtva_13">FR + 11 caractères obligatoire pour le </string>
+ <string name="rendezvousdate">Rendez-vous :</string>
+ <string name="rendezvousLastdate">Dernier rendez-vous :</string>
+ <string name="rendezvousNextdate">Prochain rendez-vous :</string>
+
+    <string name="prospect_nomdefaut">NOUVEAU CLIENT</string>
+    <string name="prospect_impossibledannuler">Impossible un document est lié à ce compte</string>
+    <string name="prospect_positionner">Deviner l\'adresse</string>
+    <string name="geocoding_in_progress">En cours de geocoding&#8230;</string>
+    <string name="geocoding_failed">échec du geocoding&#8230;</string>
+    <string name="geocode_everything">Géocoder tous les clients</string>
+    <string name="geocode_remaining">Géocoder ce qui reste</string>
+    <string name="success">succès</string>
+    <string name="fail">échec</string>
+    <string name="current_client_no_geocoding">Le client sélectionné n\'a pas de coordonnées géocodées. Merci de vérifier son adresse et de relancer le geocoding</string>
+    <string name="current_client">client actuel</string>
+    <string name="surrounding_clients">clients alentours</string>
+    <string name="check_address_and_connection">Merci de contrôler l\'éxactitude de l\'adresse du prospect ainsi que votre connectivité réseau</string>
+    <string name="unable_to_save">Impossible de sauvegarder</string>
+    <string name="save_successfull">Sauvegarde avec succès</string>
+    <string name="wserror_erreurconn">erreur conn</string>
+    <string name="wserror_errorconnexion">Error connexion</string>
+    <string name="wserror_accesrefuscr">Acces refusé\r\n</string>
+    <string name="wserror_accesrefus">Acces refusé</string>
+    <string name="Choix_TypeDocument">Type document</string>
+    <string name="histocdedetail_titre">Détail facture</string>
+    <string name="needconnection">Nécessite une connexion Wifi ou 3G</string>
+    <string name="media_add">Add...</string>
+    <string name="passworderrone">Mot de passe invalide</string>
+    <string name="mois01_courtCad">_J_</string>
+    <string name="mois02_courtCad">_F_</string>
+    <string name="mois03_courtCad">_M_</string>
+    <string name="mois04_courtCad">_A_</string>
+    <string name="mois05_courtCad">_M_</string>
+    <string name="mois06_courtCad">_J_</string>
+    <string name="mois07_courtCad">_J_</string>
+    <string name="mois08_courtCad">_A_</string>
+    <string name="mois09_courtCad">_S_</string>
+    <string name="mois10_courtCad">_O_</string>
+    <string name="mois11_courtCad">_N_</string>
+    <string name="mois12_courtCad">_D_</string>
+    <string name="geocode_prospect">Géolocaliser</string>
+    <string name="quest_save">Enregistrer</string>
+    <string name="quest_cancel">Annuler</string>
+    <string name="tv_localisation">Je veux localiser le client à partir de son adresse</string>
+    <string name="tv_get_position">Je suis chez le client et je veux enregistrer sa position</string>
+    <string name="dialog_title_gps_disabled">Localisation GPS désactivée</string>
+    <string name="dialog_message_gps_disabled">Pour plus de précisions voulez-vous l\'activer à partir des paramètres?</string>
+    <string name="dialog_pb_gps_disabled_oui">Oui</string>
+    <string name="dialog_nb_gps_disabled_non">Non</string>
+    <string name="dialog_pb_gps_disabled_parameter">Paramètres</string>
+    <string name="dialog_nb_gps_disabled_cancel">Annuler</string>
+    <string name="dialog_title_network_disabled">Aucune connexion internet</string>
+    <string name="dialog_message_network_disabled_precision">Pour plus de précisions voulez-vous vous connecter à internet?</string>
+    <string name="dialog_message_gps_disabled_precision">La localisation GPS n\'est pas activée.Voulez-vous l\'activer à partir des paramètres?</string>
+    <string name="dialog_message_network_disabled">La connexion internet n\'est pas activée. Voulez-vous l\'activer à partir des paramètres?</string>
+    <string name="toast_ficheclient_localisation_ok">La position a bien été enregistrée.</string>
+    <string name="toast_ficheclient_localisation_nok">La localisation a échoué, l\'adresse est peut-être incorrecte ou incomplète.</string>
+    <string name="deuxpoints"> :</string>
+    <string name="pourcentage"> %</string>
+    <string name="remise1">Remise 1 :</string>
+    <string name="remise2">Remise 2 :</string>
+    <string name="remise3">Remise 3 :</string>
+    <string name="sync_msgintegration">Intégration: </string>
+    <string name="sync_msgreception">Réception: </string>
+    <string name="errconnect">Problème de réception </string>
+
+    <!-- rapport d'activite -->
+    <string name="rapport_date">Date</string>
+    <string name="rapport_heure">Heure</string>
+    <string name="rapport_typeactivite">Type d\'activité</string>
+    <string name="rapport_commentaire">Commentaire</string>
+    <string name="rapport_nextdate">Prochain RDV</string>
+    <string name="rapport_titre">Rapport d\'activité</string>
+    <string name="rapport_agenda">Agenda</string>
+    <string name="rapport_heuredebut">Heure de début</string>
+    <string name="rapport_heurefin">Heure de fin</string>
+    <string name="rapport_heurefinInfheuredebut">L\'heure de fin est inférieur ou identique à l\'heure de début.</string>
+    
+    
+    <!-- retour materiel -->
+    <string name="retourmateriel_titre">Retour matériel</string>
+    <string name="retourmateriel_code">Code matériel</string>
+    <string name="retourmateriel_libart">Désignation</string>
+    <string name="retourmateriel_SZ">Plaque</string>
+    <string name="retourmateriel_numserie">Numéro série</string>
+    <string name="retourmateriel_yesno">Voulez-vous valider votre retour matériel ?</string>
+    
+    <!-- prêt materiel -->
+    <string name="pretmateriel_titre">Prêt matériel</string>
+    <string name="pretmateriel_code">Code matériel SZ</string>
+    <string name="pretmateriel_produit">Produit</string>
+    <string name="pretmateriel_yesno">Voulez-vous valider votre prêt matériel ?</string>
+     <string name="pretmateriel_categorie">Catégorie</string>
+    <string name="suppression_pretmateriel">Etes-vous sûr de vouloir supprimer ce prêt?</string>
+    <string name="pretmateriel_scan">Scan le produit</string>
+    	
+		
+    
+    
+    
+    
+    
+    
+    
+   
+    <!-- Réglement -->
+    <string name="annulation_reglement">Etes-vous sûr de vouloir annuler?</string>
+    <string name="annulation_impossible">Annulation impossible. Le document a déjà été imprimé.</string>
+    <string name="erreur_survenu">Une erreur est survenu.</string>
+    <string name="tot_HT">Tot HT : </string>
+    <string name="Mnt_TVA">Mnt TVA : </string>
+    <string name="Mnt_TTC">Mnt TTC : </string>
+    <string name="Mnt_HT">Mnt HT :</string>
+    <string name="ref">Ref. :</string>
+    <string name="date_facture">Fact. : </string>
+    <string name="date_echeance">Ech. : </string>
+    <string name="remise_reglement">Rem. :</string>
+    <string name="cheque">Chèque</string>
+    <string name="valider_reglement">Voulez-vous passer à l\'écran des encaissements?</string>
+    <string name="total">Total : </string>
+    <string name="total_selection">Total sélection :</string>
+    <string name="solde">Solde</string>
+    <string name="encaissement_montant_titre">Mode règlement pour le montant :</string>
+    <string name="encaissement_montant_titre_acompte">Acompte</string>
+    <string name="encaissement_montant_entre">Entrez un montant :</string>
+    <string name="espece">Espèce</string>
+    <string name="encaissement_enregistrer">Enregistrer</string>
+    <string name="encaissement_terminer">Terminer</string>
+    <string name="suppression_encaissement">Etes-vous sûr de vouloir supprimer cet encaissement?</string>
+    <string name="success_delete_encaissement">L\'encaissement a bien été supprimé.</string>
+    <string name="total_non_encaisser">Le montant encaissé ne couvre pas le total des factures.</string>
+    <string name="encaissements_annuler">Les encaissements enregistrés ont été annulés.</string>
+    <string name="type_not_selected">Un type doit être choisi.</string>
+    <string name="title_banque">Banque : </string>
+    <string name="title_code_banque">Code banque : </string>
+    <string name="title_agence">Agence : </string>
+    <string name="title_num_compte">Numéro du compte : </string>
+    <string name="title_cheque">Chèque : </string>
+    <string name="title_liste_encaissements">Encaissements</string>
+    <string name="title_liste_factures">Factures</string>
+    <string name="no_encaissements">Aucun encaissement</string>
+    <string name="no_factures">Aucune facture</string>
+    <string name="no_banque">Vous devez choisir une banque!</string>
+    <string name="no_cheque">Le champ chèque est obligatoire!</string>
+    <string name="no_montant">Un montant doit être saisi!</string>
+    <string name="no_numero_compte">Un numéro de compte doit être saisi!</string>
+    <string name="no_agence">Une agence doit être saisie!</string>
+    <string name="format_montant_incorrect">Le format du montant saisi est incorrect.</string>
+    <string name="format_montant_negatif">Le montant saisi ne doit pas être négatif.</string>
+    <string name="format_montant_out">Le montant saisi ne doit pas être supérieur au total des factures.</string>
+    <string name="format_montant_out_reste">Le montant saisi ne doit pas être supérieur au reste à payer.</string>
+    <string name="title_calendar">Date chèque :</string>
+    <string name="button_datepicker">Choisir une date</string>
+    <string name="no_date">Une date doit être choisie.</string>
+    <string name="encaissement_regler">Régler</string>
+    <string name="montant_nul">Le montant saisi doit être supérieur à 0.</string>
+    <string name="montant_total_encaisse">Le montant total a déjà été encaissé.</string>
+    <string name="liste_facture_correspondance">Correspondance</string>
+    <string name="liste_facture_date">Date</string>
+    <string name="liste_facture_type">Type</string>
+    <string name="liste_facture_numero">Numéro</string>
+    <string name="liste_facture_montantdu">Dû</string>
+    <string name="liste_facture_montant">Total</string>
+    <string name="encaissement_montant_negatif">Le montant des documents sélectionnés ne doit pas être négatif.</string>
+    <string name="montant_total_encaisse_zero">Le montant à encaisser doit être supérieur à 0.</string>
+    <string name="enregistrer_acompte">Enregistrer un acompte</string>
+    <string name="signataire">Signé par : </string>
+    <string name="signature_title">Signature</string>
+    <string name="validation_acompte_title">Valider l\'acompte</string>
+    <string name="button_valider_acompte">Valider</string>
+    <string name="encaissement_validation">Etes vous sûr de vouloir valider ces encaissements?</string>
+    <string name="rien_a_imprimer">Rien à imprimer.</string>
+    <string name="encaissement_print_facture">Imprimer relevé</string>
+    <!-- Fin réglement -->
+
+			<string name="qte">Qté livrée :</string>
+			<string name="remise">% :</string>
+			<string name="pu">PU : </string>
+			<string name="grat">Retour</string>
+			<string name="codeart">Code</string>
+			<string name="barcode">CB</string>
+			<string name="punet">PU Net HT</string>
+			<string name="totalnet">Tot. Net HT</string>
+			<string name="stock_">"Stock: "</string>
+			<string name="dans_la_base_actuelle_">"Dans la base actuelle: "</string>
+			<string name="re_u">"Reçu: "</string>
+			<string name="clients">Clients</string>
+			<string name="produits">Produits</string>
+			<string name="param_tres">Paramètres</string>
+			<string name="info_soci_t_">Info société</string>
+			<string name="tarif">Tarifs spéciaux</string>
+			<string name="saisissez_vos_crit_res_de_recherche">Saisissez vos critères de recherche</string>
+
+			<string name="contacts">Contacts</string>
+
+			<string name="souches">Souches de documents</string>
+
+			<string name="histo_fac">Historique des factures</string>
+
+			<string name="histodoc">Historique de documents</string>
+			<string name="supprimer">Supprimer</string>
+			<string name="ajouter">Ajouter</string>
+			<string name="pret">Prêt</string>
+			
+			
+			
+		<!-- Contact -->
+
+			<string name="contactcli_titre">Contact</string>
+			<string name="contactcli_code">Code</string>
+			<string name="contactcli_nom">Nom</string>
+			<string name="contactcli_prenom">Prénom</string>
+			<string name="contactcli_mobile">Mobile</string>
+			<string name="contactcli_email">e-Mail</string>
+			<string name="contactcli_fonction">Fonction</string>
+			<string name="contactcli_comment">Commentaire</string>
+			<string name="suppression_contact">Etes-vous sûr de vouloir supprimer ce contact?</string>
+			
+		<!-- Contact -->
+			<string name="facturesdues">Factures dues</string>
+			<string name="histodoclin">Détail des historiques</string>
+			<string name="code_article_">Code article : </string>
+			<string name="qt_">Qté : </string>
+			<string name="num_ro_de_document_">"Numéro de document : "</string>
+			<string name="type_">"Type : "</string>
+			<string name="date_d_mission_">"Date d'émission : "</string>
+			<string name="date_d_ch_ance">Date d\'échéance</string>
+			<string name="mnt_tva_">"Mnt TVA : "</string>
+			<string name="mnt_ttc_">"Mnt TTC : "</string>
+			<string name="filtre_famille_">Filtre famille:</string>
+			<string name="date_de_facture_">"Date de facture : "</string>
+			
+			
+			  <string name="title_activity_agenda_list">AgendaListActivity</string>
+    
+    <string name="see_agenda">Voir l\'agenda</string>
+    <string name="take_appointment">Prendre un RDV</string>
+
+    <string name="edit_event">éditer l\'évènement</string>
+    <string name="delete_event">supprimer l\'évènement</string>
+    <string name="show_client_on_map">localiser le client sur une carte</string>
+    <string name="naviguate_client">guidage GPS vers le client</string>
+    <string name="select_client">sélectionner le client</string>
+    <string name="from">du</string>
+    <string name="to">au</string>
+    <string name="empty_agenda">Pas de RDV pour ce client. Cliquez ici pour en ajouter un.</string>
+    <string name="agents">Agents</string>
+    <string name="datejour">""Date : "</string>
+    
+    <string name="code_agent">""Tournée : "</string>
+    
+    <string name="nomagent">"Nom : "</string>
+    <string name="version">"Version : "</string>
+    <string name="saisissez_le_mot_de_passe_administrateur">Saisissez le mot de passe administrateur</string>
+    <string name="mes_rendez_vous">Mes rendez-vous</string>
+    <string name="date_de_cr_ation_">"Date de création : "</string>
+    <string name="mnt_total_">"Mnt Total : "</string>
+    <string name="reste_d_">"Reste dû : "</string>
+    <string name="n_">"N° "</string>
+    <string name="tri_par_client">Tri par client</string>
+    <string name="tri_par_num_ro_de_pi_ce">Tri par numéro de pièce</string>
+    <string name="tri_par_date_de_cr_ation">Tri par date de création</string>
+    <string name="tri_par_tournee">Tri par ordre de tournée</string>
+    <string name="tri_par_nom_client">Tri par nom client</string>
+    <string name="tri_par_code_client">Tri par code client</string>
+     <string name="tri_par_code_tournée">Tri par code tournée</string>
+    <string name="tri_par_ville">Tri par ville</string>
+    <string name="code_mat_riel_">"Code matériel : "</string>
+    <string name="d_signation_">"Désignation : "</string>
+    <string name="plaque_">"Plaque : "</string>
+    <string name="num_ro_de_s_rie_">"Numéro de série : "</string>
+    <string name="type_de_pi_ce_">"Type de pièce : "</string>
+    <string name="date_">"Date : "</string>
+      <string name="cat_gorie">"Catégorie : "</string>
+  
+    
+      	<!--  BTDevices -->
+    <string name="scanning">scanning des appareils en cours...</string>
+    <string name="select_device">Sélectionner un appareil BlueTooth</string>
+    <string name="none_paired">Aucun appareil Bluetooth appairé</string>
+    <string name="none_found">Aucun appareil bluetooth trouvé </string>
+    <string name="title_paired_devices">Appareils appairés</string>
+    <string name="title_other_devices">Autres appareils</string>
+    <string name="button_scan">Scanner les apppareils bluetooth</string>
+    
+    <!-- Impressions -->
+    <string name="formatA4">format A4</string>
+    <string name="formatTicket">format Ticket</string>
+    <string name="testBT">Test BT</string>
+    <string name="test_imprimante">Test imprimante</string>
+    <string name="r_sultat_de_la_synchro">Résultat de la synchro</string>
+    <string name="synchronisation_r_ussie_">Synchronisation réussie !</string>
+    <string name="_erreur_s_">" erreur(s) !"</string>
+    <string name="connexion_au_serveur">Connexion au serveur</string>
+    <string name="impossible_de_r_cup_rer_le_stock_sur_le_serveur">Impossible de récupérer le stock sur le serveur</string>
+    <string name="r_ception_du_stock_th_orique">Réception du stock théorique</string>
+    <string name="patientez_">Patientez...</string>
+    
+    <string name="reb_non_transmises">Ecran inaccessible car une remise en banque n\'a pas encore été transmise.</string>
+    <string name="reb_selectbanque">Veuillez sélectionner une banque</string>
+     <string name="reb_aucunmontant">Aucun réglement sélectionné pour faire le dépôt.</string>
+    <string name="reb_validerbanque">Etes vous sûr de vouloir valider cette banque ?</string>
+    <string name="reb_title">Remise en banque</string>
+    <string name="reb_total_cheque">Total Chèques :</string>
+    <string name="reb_total_cash">Total Cash :</string>
+    <string name="reb_email">Email :</string>
+    <string name="reb_fax">Fax :</string>
+    <string name="reb_total_a_deposer">Total à déposer :</string>
+    <string name="reb_liste_banque">Banque</string>
+    <string name="reb_liste_cheque">Chèque</string>
+    <string name="reb_deposer">Déposer</string>
+    <string name="reb_banque_depot">Banque de dépôt :</string>
+    <string name="reb_validation_remise">Etes-vous sûr de vouloir enregistrer ce document?</string>
+    <string name="reb_annulation_remise">Etes-vous sûr de vouloir annuler ce document?</string>
+    <string name="reb_impression">Voulez-vous imprimer ce document?</string>
+    <string name="annulation_document">Le document a bien été annulé.</string>
+    <string name="reb_suppression">La remise en banque a bien été supprimée.</string>
+    <string name="reb_banque_depot_obligatoire">Le choix d\'une banque de dépôt est obligatoire!</string>
+    <string name="raz">RAZ</string>
+    <string name="reb_recapitulatif_title">Récapitulatif remise en banque</string>
+    <string name="annulation_de_l_inventaire_effective">Annulation de l\'inventaire effective</string>
+    <string name="raz_inventaire">RAZ inventaire</string>
+    <string name="voulez_vous_vraiment_annuler_l_inventaire_et_effacer_ce_qui_a_t_saisi_">Voulez-vous vraiment annuler l\'inventaire et effacer ce qui a été saisi ?</string>
+    <string name="transmission_de_l_inventaire">Transmission de l\'inventaire</string>
+    <string name="impossible_l_inventaire_n_est_pas_finalis_">Impossible l\'inventaire n\'est pas finalisé</string>
+    <string name="envoi_de_l_inventaire_vers_le_serveur">Envoi de l\'inventaire vers le serveur</string>
+    <string name="inventaire_envoy_avec_succ_s">Inventaire envoyé avec succès</string>
+    <string name="envoi_de_l_inventaire_chou_veuillez_re_essayer">Envoi de l\'inventaire échoué, veuillez re-essayer</string>
+    <string name="raz_des_souches">RAZ des souches</string>
+    <string name="merci_de_refaire_une_sycnhro">Merci de refaire une synchro</string>
+    <string name="client_bloqu_">Client bloqué</string>
+    <string name="d_j_inventori_s">Déjà inventoriés</string>
+    <string name="validation_de_l_inventaire">Impression de l\'inventaire</string>
+     <string name="validation_de_l_echange">Impression de l\'échange</string>
+    <string name="valider_l_inventaire">Valider l\'inventaire</string>
+    <string name="signature_du_responsable_du_stock">Signature du responsable du stock</string>
+    <string name="communication_avec_l_imprimante">Communication avec l\'imprimante</string>
+    <string name="d_j_chang_">Déjà échangé</string>
+    <string name="qt_c_d_e">Qté cédée</string>
+    <string name="impression_de_l_change">Impression de l\'échange</string>
+    <string name="transmission_de_l_change">Transmission de l\'échange</string>
+    <string name="impossible_l_change_n_est_pas_finalis_">Impossible l\'échange n\'est pas finalisé</string>
+    <string name="envoi_de_l_change_vers_le_serveur">Envoi de l\'échange vers le serveur</string>
+    <string name="echange_envoy_avec_succ_s">Echange envoyé avec succès</string>
+    <string name="envoi_de_l_change_chou_veuillez_re_essayer">Envoi de l\'échange échoué, veuillez re-essayer</string>
+    <string name="transmission_de_l_change_de_marchandise">Transmission de l\'échange de marchandise</string>
+    <string name="dupliquer">Dupliquer</string>
+    <string name="imprimer_les_retours_mat_riels">Imprimer les retours matériels</string>
+    
+    <string name="probleme_impression">Problème d\'impression.</string>
+    
+    <string name="gratuit">"CG : "</string>
+    
+    <string name="probl_me_d_impression">Problème d\'impression</string>
+    
+    <string name="vous_pouvez_valider_le_document_sans_imprimer">Vous pouvez valider le document sans imprimer</string>
+    
+    <string name="les_retours_n_ont_pas_t_imprim_s">Les retours n\'ont pas été imprimés</string>
+    
+    <string name="liste_des_machines_d_j_en_place">Liste des machines déjà en place</string>
+    
+    <string name="les_pr_ts_n_ont_pas_t_imprim_s">Les prêts n\'ont pas été imprimés</string>
+    
+    <string name="impression_des_retours_mat_riels">Impression des retours matériels</string>
+    
+    <string name="aucun_retour_valid_">Aucun retour validé</string>
+    
+    <string name="impression_des_pr_ts_mat_riels">Impression des prêts matériels</string>
+    
+    <string name="aucun_pr_t_valid_">Aucun prêt validé</string>
+    
+    <string name="vous_n_tes_pas_autoris_faire_des_retours_mat_riel">Vous n\'êtes pas autorisé à faire des retours matériel</string>
+    
+    <string name="retour_mat_riel">Retour matériel</string>
+    
+    <string name="nouveau_retour_impossible">Nouveau retour impossible</string>
+     <string name="comment">Commentaire</string>
+    <string name="vous_avez_d_j_un_retour_envoyer_avant_d_en_faire_un_nouveau">Vous avez déjà un retour à envoyer avant d\'en faire un nouveau</string>
+    <string name="stock_th_orique">Stock théorique</string>
+    <string name="ce_document_sera_transmis_lors_du_retour_au_menu_principal">Ce document sera transmis lors du retour au menu principal</string>
+    <string name="statistiques">Statistiques</string>
+    <string name="tous">Tous</string>
+    <string name="la_quantit_livrer_est_sup_rieur_au_stock_th_orique_continuer_">La quantité à livrer est supérieur au stock théorique, continuer ?</string>
+    <string name="synth_se_articles_hebdo">Synthèse articles hebdo</string>
+    <string name="suivi_stock_hebdo">Suivi stock hebdo</string>
+    <string name="imprimer_un_duplicata_du_r_glement_">Imprimer un duplicata du règlement ?</string>
+    <string name="le_num_ro_de_ch_que_ne_doit_pas_exc_der_8_chiffres">Le numéro de chèque ne doit pas excéder 8 chiffres</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <item name="list_pair" type="color">#ededed</item>
+    <item name="list_impair" type="color">#bed5dc</item>
+    <item name="galerie" type="color">#706363</item>
+    <item name="red" type="color">#FF4444</item>
+    <item name="blue_danem" type="color">#1e8cd0</item>
+    <item name="fond_main" type="color">#e0e8f2</item>
+    <item name="mauve" type="color">#660033</item>
+    <item name="vert_inter_encours" type="color">#33FF66</item>
+    <item name="vert_totaux" type="color">#ADCF4F</item>
+    <item name="blue_montant" type="color">#0000FF</item>
+ 
+    <integer-array name="androidcolors">
+        <item>@color/list_pair</item>
+        <item>@color/list_impair</item>
+        <item>@color/galerie</item>
+        <item>@color/red</item>
+        <item>@color/blue_danem</item>
+        <item>@color/fond_main</item>
+        <item>@color/mauve</item>
+        <item>@color/vert_inter_encours</item>
+        <item>@color/vert_totaux</item>
+        <item>@color/blue_montant</item>
+    </integer-array>
+ 
+</resources> 

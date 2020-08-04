@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+        android:background="#9c9c9c"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:text="@string/num_ro_de_document_"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvNumDoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+          
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:text="@string/type_"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvTypeDoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:text="@string/date_d_mission_"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvDateDoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:visibility="invisible"
+                    android:text="@string/date_d_ch_ance"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvDateEch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:visibility="invisible"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:visibility="invisible"
+                android:orientation="horizontal" >
+
+                
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:visibility="invisible"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="6dip"
+                        android:text="@string/remise"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:id="@+id/tvRemise"
+                        android:layout_width="0px"
+                          android:textStyle="bold" 
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:paddingLeft="6dip"
+                        android:textSize="14dip" />
+                </LinearLayout>
+ <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="6dip"
+                        android:text="@string/mntht"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:id="@+id/tvMntHT"
+                          android:textStyle="bold" 
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:paddingLeft="6dip"
+                        android:textSize="14dip" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="6dip"
+                        android:text="@string/mnt_tva_"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:id="@+id/tvMntTVA"
+                          android:textStyle="bold" 
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:paddingLeft="6dip"
+                        android:textSize="14dip" />
+                </LinearLayout>
+                 <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="6dip"
+                        android:text="@string/mnt_ttc_"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:id="@+id/tvMntTTC"
+                          android:textStyle="bold" 
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:paddingLeft="6dip"
+                        android:textSize="14dip" />
+                </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+
+    <com.menadinteractive.segafredo.communs.myListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

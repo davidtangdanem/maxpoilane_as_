@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <ImageView 
+        android:id="@+id/iv1"
+        android:layout_height="50dip"
+        android:layout_width="50dip"
+        android:background="@drawable/ic_action_info"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+    	android:layout_centerVertical="true"
+        android:visibility="gone"/>
+    
+    <TextView 
+        android:id="@+id/stock"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20dip"
+        android:layout_alignParentRight="true"
+        android:padding="5dip"
+        android:gravity="center_vertical"
+    	android:layout_centerVertical="true"
+        android:text=" "/>
+    
+    <TextView
+    	android:id="@+id/text1"
+  		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_toRightOf="@id/iv1"
+    	android:layout_toLeftOf="@id/stock"
+    	android:textSize="20dip"
+    	android:paddingLeft="6dip" 
+    	android:text=" "/>
+    
+    <TextView
+    	android:id="@+id/text2"
+  		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_toRightOf="@id/iv1"
+    	android:layout_toLeftOf="@id/stock"
+    	android:layout_below="@id/text1"
+    	android:textSize="15dip"
+    	android:paddingLeft="6dip" 
+    	android:text=" "/>
+    
+</RelativeLayout>
+    

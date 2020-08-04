@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="550dp"
+	android:layout_height="fill_parent">
+	<TextView 
+	    android:id="@+id/tv_day"
+	    android:layout_width="150dp"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="10dp"
+	    android:text="lundi:"
+	    android:textSize="22dp"/>
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/tv_day">
+	    <TextView 
+	        android:id="@+id/am"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:text="de 10h à 12h"
+	        android:textSize="18dp"/>
+	    
+	    <TextView 
+	        android:id="@+id/pm"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:text="de 14h à 16h"
+	        android:textSize="18dp"/>
+	</LinearLayout>
+</RelativeLayout>

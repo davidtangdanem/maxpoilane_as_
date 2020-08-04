@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:padding="6dip">
+	
+	<ImageView 
+	    android:id="@+id/icon" 
+	    android:layout_width="wrap_content"
+		android:layout_height="fill_parent" 
+		android:layout_marginRight="6dip">
+	</ImageView>
+	<LinearLayout 
+	    android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		
+		<TextView android:id="@+id/toptext" 
+		    android:layout_width="fill_parent"
+			android:textSize="25sp"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical" />
+		<TextView 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:id="@+id/bottomtext"
+			android:singleLine="true" 
+			android:ellipsize="marquee"
+			android:textStyle="italic" 
+			android:textSize="20sp" />
+		<TextView 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:id="@+id/lowtext"
+			android:singleLine="true" 
+			android:ellipsize="marquee"
+			android:textStyle="italic" 
+			android:textSize="20sp" />
+		<TextView 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:id="@+id/llowtext"
+			android:singleLine="true" 
+			android:ellipsize="marquee"
+			android:textStyle="italic" 
+			android:textSize="20sp" />
+
+	</LinearLayout>
+</LinearLayout>

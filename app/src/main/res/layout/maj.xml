@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+
+    <LinearLayout
+        android:id="@+id/zoneMenuHaut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/logos_danem" />
+
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="NEGOS"
+            android:textColor="#ffffff"
+            android:textSize="12sp" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/logoClient"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dip" />
+    </LinearLayout>
+
+
+
+    <GridView
+        android:id="@+id/moduleGridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/zoneMenuHaut"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="6dp"
+        android:numColumns="3"
+        android:verticalSpacing="6dp" />
+
+</RelativeLayout>

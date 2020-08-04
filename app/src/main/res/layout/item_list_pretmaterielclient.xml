@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip" >
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_action_info" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/iv2"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:paddingLeft="6dip"
+                    android:text="@string/code_mat_riel_"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvCode"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:paddingLeft="6dip"
+                    android:text="@string/plaque_"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvPlaqueSZ"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:paddingLeft="6dip"
+                    android:text="@string/d_signation_"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvLibart"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:paddingLeft="6dip"
+                    android:text="@string/num_ro_de_s_rie_"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvNumserie"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:paddingLeft="6dip"
+                    android:text="@string/cat_gorie"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/tvCategorie"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:paddingLeft="6dip"
+                    android:textSize="14dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

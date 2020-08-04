@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvValidationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/list_impair"
+        android:gravity="center"
+        android:text="@string/validation_de_l_inventaire"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/llNomSignataire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+        
+            android:gravity="center"
+            android:text="Commentaire"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/etComment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+      
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#ffffff"
+            android:gravity="top|left"
+            android:lines="1"
+            android:maxLines="1"
+            android:minLines="1"
+            android:scrollbars="vertical"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSignature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+          android:visibility="gone"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvSignatureTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Signature de l&apos;agent"
+            android:textColor="#0000ff"
+            android:textSize="20sp"
+            android:textStyle="italic" >
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/rlSignature"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/area_background"
+            android:focusable="true"
+            android:padding="20dip" >
+
+            <ImageView
+                android:id="@+id/ivSignatureAgent"
+                android:layout_width="fill_parent"
+                android:layout_height="100dip"
+                android:gravity="top"
+                android:textColor="#000000" >
+            </ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+<CheckBox
+            android:id="@+id/checkBoxAgentGen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+  
+  			android:layout_marginTop="10dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:text="Agent général" />
+    <LinearLayout
+        android:id="@+id/llSignature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        
+
+        <TextView
+            android:id="@+id/tvSignatureTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+                      android:layout_marginTop="10dp"
+            android:text="Signature de l&apos;agent général"
+            android:textColor="#0000ff"
+            android:textSize="20sp"
+            android:textStyle="italic" >
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/rlSignature"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/area_background"
+            android:focusable="true"
+            android:padding="20dip" >
+
+            <ImageView
+                android:id="@+id/ivSignatureDuo"
+                android:layout_width="fill_parent"
+                android:layout_height="100dip"
+                android:gravity="top"
+                android:textColor="#000000" >
+            </ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

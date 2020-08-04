@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv1"
+     		android:visibility="gone"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ic_action_info" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:visibility="gone"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_alignParentRight="true"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="6dip"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1" >
+
+        <TextView
+            android:id="@+id/textcounttable"
+            android:layout_width="0px"
+              android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+     		android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="6dip"
+            android:textSize="20dip" />
+        
+         <TextView
+            android:id="@+id/textcountreceive"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+     		android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="6dip"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+</RelativeLayout>

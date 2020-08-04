@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light" />
+    
+    <style name="SpinnerTextViewItem" parent="@android:style/Widget.TextView" >
+    <item name="android:textSize" >20dp</item>
+    <item name="android:textStyle" >bold</item>
+	</style>
+	
+     <style name="spinnerDropDownItemStyle">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+</resources>

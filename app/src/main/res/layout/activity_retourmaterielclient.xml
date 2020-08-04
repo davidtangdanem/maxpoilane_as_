@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/retourmateriel_titre"
+                android:textSize="22dp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TexteCodeart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/retourmateriel_code"
+                android:visibility="gone" 
+                android:textSize="22dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditCodeart"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:editable="false"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/Textelibart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/retourmateriel_libart"
+               
+                android:textSize="22dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditLibart"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:singleLine="true"
+                 android:editable="false"
+                android:text=""
+                android:textStyle="bold" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/TexteSZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/retourmateriel_SZ"
+               
+                android:textSize="22dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditSZ"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:editable="false"
+                android:text=""
+                >
+            </EditText>
+            
+             <TextView
+                android:id="@+id/TexteNumeroserie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/retourmateriel_numserie"
+                android:textSize="22dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditNumeroserie"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                 android:imeOptions="actionNext"
+                android:padding="10dp"
+                 android:editable="false"
+                android:singleLine="true"
+                android:text="" >
+            </EditText>
+
+           
+              
+          
+            <TextView
+                android:id="@+id/TexteCommentaire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/contactcli_comment"
+                android:textSize="22dp" >
+            </TextView>
+              <EditText
+                android:id="@+id/EditCommentaire"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:imeOptions="actionDone"
+                android:padding="10dp"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:text="" >
+            </EditText>
+            
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

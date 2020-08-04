@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+   
+	
+	
+	
+    <!-- Obtention de l'apiKey : https://developers.google.com/android/maps-api-signup?hl=fr-FR -->
+    <!--Key debug android:apiKey="09WYiZfadJ7YB3woB2NQSpTacfJED5jEKWNFDKg"
+    	Key signed : android:apiKey="0kBawG2Na8ECx3XL5SXtLcbQlzNeCO6dAiQS_6g"-->
+    <com.menadinteractive.segafredo.carto.CartoMapView
+    	android:id="@+id/mv_carto"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+
+    	android:layout_margin="0dip"
+    	android:apiKey="09WYiZfadJ7YB3woB2NQSpTacfJED5jEKWNFDKg"
+    	android:clickable="true"
+    	android:enabled="true" />
+    
+  
+    
+    
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/moduleName"
+     android:layout_width="fill_parent"
+     android:layout_height="192dip"
+ 
+     android:paddingLeft="0dip"
+     android:paddingRight="0dip"
+     android:paddingTop="5dip"
+     android:paddingBottom="2dip"
+     android:drawablePadding="0dip"
+         
+     android:textSize="26dip"
+     android:textColor="#000000"
+     android:maxLines="2"
+     android:ellipsize="marquee"
+     android:fadingEdge="horizontal"
+     android:gravity="center"   
+     />

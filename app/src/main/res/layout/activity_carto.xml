@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout 
+        android:id="@+id/rl_logger_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        
+        <LinearLayout 
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+
+               <AutoCompleteTextView
+                   android:id="@+id/autoCompleteTextViewRS2"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center_horizontal"
+                   android:hint="Raison sociale"
+                   android:text="AutoCompleteTextView" />
+            
+            <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#abececec"
+                android:text="@string/A_proximite"
+                android:textSize="20dip"
+                android:gravity="center_horizontal"
+                android:layout_margin="1dp"/>
+        	<ListView 
+            	android:id="@+id/lv_1"
+            	android:layout_width="fill_parent"
+            	android:layout_height="fill_parent">
+       		</ListView>
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+        	<RelativeLayout 
+        	    android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            	<TextView 
+                	android:layout_width="fill_parent"
+                	android:layout_height="wrap_content"
+                	android:background="#abececec"
+                	android:text="@string/Tournee"
+                	android:textSize="20dip"
+                	android:gravity="center_horizontal"
+                	android:layout_margin="1dp"/>
+            	<Spinner 
+            	    android:id="@+id/s_1"
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+            	    android:layout_alignParentRight="true"
+            	    android:entries="@array/zone_array"/>
+            	<!-- 
+            	<ImageButton 
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+            	    android:src="@drawable/ic_action_zone"
+            	    android:layout_alignParentRight="true"
+            	    android:padding="0dp"/>
+            	 -->
+            </RelativeLayout>
+        	<ListView 
+            	android:id="@+id/lv_3"
+            	android:layout_width="fill_parent"
+            	android:layout_height="fill_parent">
+       		</ListView>
+        </LinearLayout>
+        
+   </LinearLayout>
+        
+	<LinearLayout 
+        android:id="@+id/rl_logger_left"
+        android:layout_width="300dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        
+	    <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+           <RelativeLayout 
+        	    android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            	<TextView 
+                	android:layout_width="fill_parent"
+                	android:layout_height="wrap_content"
+                	android:background="#abececec"
+                	android:text="@string/Tournee"
+                	android:textSize="20dip"
+                	android:gravity="center_horizontal"
+                	android:layout_margin="1dp"/>
+            	<Spinner 
+            	    android:id="@+id/s_2"
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+            	    android:layout_alignParentRight="true"
+            	    android:entries="@array/zone_array"/>
+            	<!-- 
+            	<ImageButton 
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+            	    android:src="@drawable/ic_action_zone"
+            	    android:layout_alignParentRight="true"
+            	    android:padding="0dp"/>
+            	 -->
+            </RelativeLayout>
+            
+        	<ListView 
+            	android:id="@+id/lv_4"
+            	android:layout_width="fill_parent"
+            	android:layout_height="fill_parent">
+        	</ListView>
+        </LinearLayout>
+        
+	    <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/border">
+            <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#abececec"
+                android:text="@string/A_proximite"
+                android:textSize="20dip"
+                android:gravity="center_horizontal"
+                android:layout_margin="1dp"/>
+            
+        	<ListView 
+            	android:id="@+id/lv_2"
+            	android:layout_width="fill_parent"
+            	android:layout_height="fill_parent">
+        	</ListView>
+        </LinearLayout>
+    </LinearLayout>
+    
+	
+	
+	
+    <!-- Obtention de l'apiKey : https://developers.google.com/android/maps-api-signup?hl=fr-FR -->
+    <!--Key debug android:apiKey="09WYiZfadJ7YB3woB2NQSpTacfJED5jEKWNFDKg"
+    	Key signed : android:apiKey="0kBawG2Na8ECx3XL5SXtLcbQlzNeCO6dAiQS_6g"-->
+ 	<LinearLayout 
+ 	    android:id="@+id/llfilter"
+	 	    android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	    	android:layout_above="@id/rl_logger_bottom"
+	    	android:layout_toRightOf="@id/rl_logger_left"
+            android:orientation="vertical"
+            >
+    	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+    	       
+
+    	        <AutoCompleteTextView
+    	            android:id="@+id/autoCompleteTextViewRS"
+    	            android:layout_width="160dp"
+    	            android:layout_height="50dp"
+    	            android:text="AutoCompleteTextView" />
+
+	    </LinearLayout>
+	    <com.menadinteractive.segafredo.carto.CartoMapView
+	    	android:id="@+id/mv_carto"
+	    	android:layout_below="@id/llfilter"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:layout_margin="0dip"
+	    	android:apiKey="0kBawG2Na8ECx3XL5SXtLcbQlzNeCO6dAiQS_6g"
+	    	android:clickable="true"
+	    	android:enabled="true" />
+
+	    
+
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/rl_logger_bottom"
+    	android:layout_toRightOf="@id/rl_logger_left"
+    	android:layout_margin="5dip">
+        
+        <ImageView 
+            android:id="@+id/iv_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/car"/>
+    </RelativeLayout>
+    
+   
+    
+    
+</RelativeLayout>

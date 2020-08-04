@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Utilisateur" >
+
+        <EditTextPreference
+            android:key="login"
+            android:summary="Entrez votre nom d&apos;utilisateur"
+            android:title="Nom d&apos;utilisateur" >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="password"
+            android:password="true"
+            android:summary="Entrez votre mot de passe"
+            android:title="Mot de passe" >
+        </EditTextPreference>
+        
+        <EditTextPreference
+            android:key="soc_code"
+            android:summary="Entrez le code société"
+            android:title="Code société" >
+        </EditTextPreference>
+            
+        <EditTextPreference
+            android:key="depot"
+            android:summary="Entrez le code dépot du camion"
+            android:title="Code dépot du camion" >
+        </EditTextPreference>
+        
+        <EditTextPreference
+            android:key="ip"
+            android:defaultValue="sd8.danem.fr"
+            android:summary="Entrez l'ip de connexion"
+            android:title="IP de connexion" >
+        </EditTextPreference>
+        
+         <EditTextPreference
+ 
+            android:key="macprinter"
+            android:summary="Entrez l'adresse MAC de l'imprimante (sans séparateurs)"
+            android:title="MAC Imprimante" >
+        </EditTextPreference>
+        
+
+        
+        
+         <CheckBoxPreference
+ 
+            android:key="souches"
+            android:summary="Reinitialiser les souches"
+            android:title="Souches" >
+        </CheckBoxPreference>
+         <CheckBoxPreference
+ 
+            android:key="SSL"
+            android:summary="Utilisez une connexion sécurisée"
+            android:title="SSL" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+ 
+            android:key="invpartiel"
+            android:summary="Autoriser les inventaires partiels"
+            android:title="Inventaire partiel" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+ 
+            android:key="reset"
+            android:summary="Vider la base de données pour recommencer à zéro"
+            android:title="Vider la base de données" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+ 			android:defaultValue="true"
+            android:key="modetest"
+            android:summary="Le mode test permet de n'envoyer aucune données au serveur"
+            android:title="Mode test" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+
+            android:key="resetlog"
+            android:summary="Vider les logs"
+            android:title="Vider les logs" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
