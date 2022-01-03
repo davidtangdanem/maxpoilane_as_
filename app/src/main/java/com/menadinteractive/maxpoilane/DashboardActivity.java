@@ -355,7 +355,8 @@ public class DashboardActivity extends BaseActivity {
 				*/
 				if (o.titre.equals(getString(R.string.menu_catalogue)))
 				{
-					goCatalogue();
+					//goCatalogue();
+					controlIfDocumentInBuffer();
 					return;
 				}
 				if (o.titre.equals(getString(R.string.menu_ech_entre_livreur)))
@@ -604,10 +605,19 @@ public class DashboardActivity extends BaseActivity {
 		colNames.add(setMenuLine(R.string.menu_go,R.drawable.basic3_021_transport_delivery_van_shipping, ""));
 		colNames.add(setMenuLine(R.string.menu_param,R.drawable.basic2_299_gear_settings, ""));
 		colNames.add(setMenuLine(R.string.Synchro,R.drawable.basic1_102_wi_fi_wireless_router, ""));
+		dbKD83EntCde cde=new dbKD83EntCde(m_appState.m_db);
+		structEntCde structcde=new structEntCde();
+		structcde=cde.getPieceNotSend();
+		if (structcde != null)
+		{
+			colNames.add(setMenuLine(R.string.menu_catalogue,R.drawable.basic2_117_open_reading_book, ""));
+		}
+
+
 
 		//colNames.add(setMenuLine(R.string.mes_rendez_vous,R.drawable.basic1_011_calendar, ""));
 
-		//	colNames.add(setMenuLine(R.string.menu_catalogue,R.drawable.basic2_117_open_reading_book, ""));
+		//
 		/*colNames.add(setMenuLine(R.string.facturesdues,R.drawable.basic2_018_money_coins, ""));
 
 		TableSouches souche=new TableSouches(m_appState.m_db,this);		

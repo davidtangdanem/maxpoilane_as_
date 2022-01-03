@@ -112,7 +112,7 @@
      <string name="livreur_select">xlivreur</string>
     <string name="menu_inventaire">Inventaire véhicule</string>
     <string name="menu_transfertStock">Transfert de stock</string>
-    <string name="menu_catalogue">Catalogue</string>
+    <string name="menu_catalogue">BL non envoyé</string>
     <string name="menu_ech_entre_livreur">Transfert de stock</string>
     <string name="commande_print">Imprimer</string>
     <string name="commande_printduplicata">Imprimer duplicata</string>
