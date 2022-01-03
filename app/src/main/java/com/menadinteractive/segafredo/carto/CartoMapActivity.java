@@ -717,11 +717,12 @@ public class CartoMapActivity extends BaseActivity implements
 		}
 
 	}
-
+/*
 	@Override
 	protected boolean isRouteDisplayed() {
 		return false;
 	}
+	*/
 
 	private void initGUI() {
 		LinearLayout llfilter = (LinearLayout) findViewById(R.id.llfilter);

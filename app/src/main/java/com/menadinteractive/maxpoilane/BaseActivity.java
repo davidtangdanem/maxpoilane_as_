@@ -53,7 +53,7 @@ import com.menadinteractive.stats.StockTheoActivity;
 import com.menadinteractive.stats.SuiviStockHebdoActivity;
 import com.menadinteractive.stats.SyntheseArtHebdoActivity;
 
-public class BaseActivity extends MapActivity{
+public class BaseActivity extends Activity{
 	/** Constants */
 	public static final int MESSAGE_CLIENT_SELECTED_ON_MAP = 204;
 	public static final int MESSAGE_SHOW_POPUP = 205;
@@ -246,12 +246,12 @@ public class BaseActivity extends MapActivity{
 	protected Cursor find(String query){
 		return m_appState.m_db.conn.rawQuery(query, null);
 	}
-
+/*
 	@Override
 	protected boolean isRouteDisplayed() {
 		// TODO Auto-generated method stub
 		return false;
-	} 
+	} */
 	protected boolean controlMinVer(boolean displayMsg) {
 
 		String _minver = Global.dbParam.getLblAllSoc(Global.dbParam.PARAM_MINVER,

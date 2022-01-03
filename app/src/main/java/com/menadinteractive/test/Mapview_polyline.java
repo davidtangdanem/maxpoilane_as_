@@ -42,11 +42,12 @@ public class Mapview_polyline extends BaseActivity {
 	    projection = mapView.getProjection();
 	    mapOverlays.add(new MyOverlay());  
 	}
-	
+	/*
 	@Override
 	protected boolean isRouteDisplayed() {
 	    return false;
 	}
+	*/
 	
 	class MyOverlay extends Overlay{
 

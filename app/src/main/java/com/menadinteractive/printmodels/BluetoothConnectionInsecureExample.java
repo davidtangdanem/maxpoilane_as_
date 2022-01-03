@@ -1,6 +1,6 @@
 package com.menadinteractive.printmodels;
 
-import org.apache.http.util.EncodingUtils;
+
 
 import android.os.Handler;
 import android.os.Looper;

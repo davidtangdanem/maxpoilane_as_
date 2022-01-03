@@ -94,7 +94,7 @@ public class app extends Application{
 		createTables();
 		createIndex();
 
-		MyDB.copyFile(MyDB.source,MyDB.dest);
+		//MyDB.copyFile(MyDB.source,MyDB.dest);
 	}
 
 	public void createTables(){

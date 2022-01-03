@@ -40,30 +40,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".carto.CartoMapActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard" >
-        </activity>
+
         <activity
             android:name="com.menadinteractive.test.Mapview_polyline"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:launchMode="standard" >
         </activity>
-        <activity
-            android:name=".tournee.TourneeActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard" >
-        </activity>
-        <activity
-            android:name="com.menadinteractive.stats.StatCABYDay"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard" >
-        </activity>
+
+
         <activity
             android:name="com.menadinteractive.maxpoilane.prefs_authent"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -114,19 +99,8 @@
             android:launchMode="standard"
             android:screenOrientation="portrait" >
         </activity>
-        <activity
-            android:name="com.menadinteractive.transfertstock.TransferstockActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.menadinteractive.segafredo.plugins.MiseAJour"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard" >
-        </activity>
+
+
         <activity
             android:name="com.menadinteractive.segafredo.client.ficheclient"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -134,14 +108,7 @@
             android:launchMode="standard"
             android:screenOrientation="portrait" >
         </activity>
-        <activity
-            android:name="com.menadinteractive.maxpoilane.Rapportactivite.rapportactivite"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" >
-        </activity>
+
         <activity
             android:name="com.menadinteractive.segafredo.client.GeolocalisationClient"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -171,36 +138,7 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait" >
         </activity>
-        <activity
-            android:name="com.menadinteractive.transfertstock.TransfetstockInput"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" >
-        </activity>
-        <activity
-            android:name="com.menadinteractive.stats.HistoCdeHdrFragment"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard"
-            android:windowSoftInputMode="stateHidden" >
-        </activity>
-        <activity
-            android:name="com.menadinteractive.stats.HistoCdeLinFragment"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard"
-            android:windowSoftInputMode="stateHidden" >
-        </activity>
-        <activity
-            android:name="com.menadinteractive.stats.CadencierClientDetailFragment"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard"
-            android:screenOrientation="landscape"
-            android:windowSoftInputMode="stateHidden" >
-        </activity>
+
         <activity
             android:name="com.menadinteractive.segafredo.findcli.FindCliActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -264,22 +202,7 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" >
         </activity>
-        <activity
-            android:name="com.menadinteractive.maxpoilane.Remisebanque.RecapitulatifRemiseEnBanque"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
-        <activity
-            android:name="com.menadinteractive.maxpoilane.Remisebanque.RemiseEnBanque"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:launchMode="standard"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
+
         <activity
             android:name="com.menadinteractive.segafredo.encaissement.EncaissementActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -405,8 +328,7 @@
             </intent-filter>
         </receiver>
         -->
-        <service android:name=".synchro.GpsMonitorService" >
-        </service>
+
 
         <activity
             android:name="com.menadinteractive.printmodels.printBlueToothActivity"
