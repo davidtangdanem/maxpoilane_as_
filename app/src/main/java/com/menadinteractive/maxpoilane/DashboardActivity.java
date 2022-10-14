@@ -120,7 +120,8 @@ public class DashboardActivity extends BaseActivity {
 		copyAssets();
 		controlIfDocumentInBuffer();
 		
-		MyDB.copyFile(MyDB.source, MyDB.dest);
+		//MyDB.copyFile(MyDB.source, MyDB.dest);
+		//MyDB.copyFile(MyDB.dest, MyDB.source);
 		hSync=getHandlerSync();
 		Global.dbLog.Insert("Menu Principal", "Demarrage", "", "", "", "");
 		
