@@ -846,7 +846,7 @@ public class dbKD83EntCde extends dbKD {
 		
 		String query = "SELECT * FROM " + TABLENAME + " where "
 				+ fld_kd_dat_type + "=" + KD_TYPE + " and ("
-				+ this.FIELD_ENTCDE_SEND+ "=" + "'0' or "+this.FIELD_ENTCDE_SEND+" is null)";
+				+ this.FIELD_ENTCDE_SEND+ "=" + "'0' or "+this.FIELD_ENTCDE_SEND+" is null) ORDER BY "+this.FIELD_ENTCDE_CODECDE;
 		
 		Cursor cur = db.conn.rawQuery(query, null);
 		if(cur.moveToNext()){

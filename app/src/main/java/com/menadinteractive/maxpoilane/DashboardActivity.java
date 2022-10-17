@@ -145,7 +145,10 @@ public class DashboardActivity extends BaseActivity {
 		structcde=cde.getPieceNotSend();
 		if (structcde!=null)
 		{
-			launchCde(this, structcde.TYPEDOC, structcde.CODECLI, structcde.SOCCODE);
+
+			launchCde(this, structcde.TYPEDOC, structcde.CODECLI, structcde.SOCCODE,structcde.CODECDE);
+			Fonctions.FurtiveMessageBox(this,structcde.CODECDE);
+
 			return;
 		}
 

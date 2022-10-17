@@ -880,7 +880,7 @@ public class CartoMapActivity extends BaseActivity implements
 	private void initModels() {
 		((app) getApplication()).createTables();
 		((app) getApplication()).createIndex();
-		MyDB.copyFile(MyDB.source, MyDB.dest);
+		//MyDB.copyFile(MyDB.source, MyDB.dest);
 
 		Debug.Log("INIT MODELS");
 		markerController = new Marker(this);
