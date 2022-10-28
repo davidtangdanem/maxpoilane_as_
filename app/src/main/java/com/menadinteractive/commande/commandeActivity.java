@@ -557,10 +557,17 @@ implements OnItemSelectedListener
 				Global.dbKDEntCde.saveEmail(m_numcde, m_stemail);
 				Global.dbLog.Insert("CommandeActivity", "Save", "", "Numcde:"
 						+ m_numcde + " - Code client: " + m_codecli, "", "");
-				
-				//incremente le numro de doc
+
 				TableSouches souche=new TableSouches(m_appState.m_db,commandeActivity.this);
-				souche.incNum( Preferences.getValue(commandeActivity.this, Espresso.LOGIN, "0"),m_typedoc);
+				String valeursouche=souche.SoucheNum(Preferences.getValue(commandeActivity.this, Espresso.LOGIN, "0"),m_typedoc);
+				if(Fonctions.GetStringDanem(m_numcde).equals(valeursouche))
+				{
+					//incremente le numro de doc
+					souche.incNum( Preferences.getValue(commandeActivity.this, Espresso.LOGIN, "0"),m_typedoc);
+
+				}
+
+
 
 				
 				//on transfert la facture dans les factures dues

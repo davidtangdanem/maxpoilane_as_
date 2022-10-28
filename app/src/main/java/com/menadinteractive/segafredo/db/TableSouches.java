@@ -204,6 +204,21 @@ public class TableSouches extends DBMain{
 		
 		
 	}
+	public String  SoucheNum(String codvrp,String typedoc)
+	{
+		String val=Fonctions.GetProfileString(m_context, codvrp+typedoc, "");
+		if (Fonctions.convertToLong(val)==0)
+		{
+			return "";
+		}
+
+		val=(Fonctions.convertToLong(val))+"";
+
+
+		return val;
+
+
+	}
 	public boolean incNumSouche(String codvrp,String typedoc,String valeur)
 	{
 				
