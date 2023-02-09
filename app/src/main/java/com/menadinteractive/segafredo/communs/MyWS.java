@@ -57,9 +57,11 @@ public class MyWS {
 	//
 	public static final String SDMAJ = "SDMAJ.danem.fr/zrserveurws/maj";
 	public static  String URL = WSSendURLIP();
-	public static final String LOAD_WEB = "http://sd8.danem.fr/max_poilane/pdf/CONVERTER/pdf/";
-	
-	
+	//public static final String LOAD_WEB = "http://sd8.danem.fr/max_poilane/pdf/CONVERTER/pdf/";
+	public static final String LOAD_WEB = "http://maxpoilane.danem.fr/max_poilane/pdf/CONVERTER/pdf/";
+
+
+
 	static String WSSendURLIP()
 	{
 		Context c=app.getAppContext();

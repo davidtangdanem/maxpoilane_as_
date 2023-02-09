@@ -30,7 +30,7 @@
         
         <EditTextPreference
             android:key="ip"
-            android:defaultValue="sd8.danem.fr"
+            android:defaultValue="maxpoilane.danem.fr"
             android:summary="Entrez l'ip de connexion"
             android:title="IP de connexion" >
         </EditTextPreference>
