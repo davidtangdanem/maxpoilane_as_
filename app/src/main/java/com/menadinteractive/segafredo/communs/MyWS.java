@@ -58,7 +58,7 @@ public class MyWS {
 	public static final String SDMAJ = "SDMAJ.danem.fr/zrserveurws/maj";
 	public static  String URL = WSSendURLIP();
 	//public static final String LOAD_WEB = "http://sd8.danem.fr/max_poilane/pdf/CONVERTER/pdf/";
-	public static final String LOAD_WEB = "http://maxpoilane.danem.fr/max_poilane/pdf/CONVERTER/pdf/";
+	public static final String LOAD_WEB = "https://maxpoilane.danem.fr/max_poilane/pdf/CONVERTER/pdf/";
 
 
 
@@ -66,6 +66,7 @@ public class MyWS {
 	{
 		Context c=app.getAppContext();
 		String ip=Preferences.getValue(c  , Espresso.IP, "0");
+		//return "http://"+ip+"/zrserver/zrservice.asmx";
 		return "http://"+ip+"/zrserveurws/zrservice.asmx";
 	}
 	

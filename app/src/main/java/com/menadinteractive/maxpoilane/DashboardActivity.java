@@ -120,7 +120,7 @@ public class DashboardActivity extends BaseActivity {
 		copyAssets();
 		controlIfDocumentInBuffer();
 		
-		//MyDB.copyFile(MyDB.source, MyDB.dest);
+		//MyDB.copyFile(MyDB.dest, MyDB.source);
 		//MyDB.copyFile(MyDB.dest, MyDB.source);
 		hSync=getHandlerSync();
 		Global.dbLog.Insert("Menu Principal", "Demarrage", "", "", "", "");
@@ -881,7 +881,10 @@ public class DashboardActivity extends BaseActivity {
 	}
 	 @Override
 		public boolean onCreateOptionsMenu(Menu menu) {
-			addMenu(menu, R.string.hotline,R.drawable.basic2_233_help);
+		 addMenu(menu, R.string.information,R.drawable.basic2_117_open_reading_book);
+
+		 addMenu(menu, R.string.hotline,R.drawable.basic2_233_help);
+
 		 
 		
 			 
@@ -895,9 +898,14 @@ public class DashboardActivity extends BaseActivity {
 		
 			case R.string.hotline:
 				Fonctions.sendEmailBaseDonneegPieceJointe(this,getLogin(),"hotline@danem.com","","","","Message adressé à la hotline de la part de MAX POILANE "+getLogin());
-				
-			
-				return true;
+				case R.string.information:
+					dbKD83EntCde cde=new dbKD83EntCde(getDB());
+					String sval =cde.getEntCdeSent();
+
+					promptText("Nb BL",sval, false);
+
+
+					return true;
 			default:
 				return super.onOptionsItemSelected(item);
 			}

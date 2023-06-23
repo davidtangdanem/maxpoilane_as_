@@ -840,6 +840,21 @@ public class dbKD83EntCde extends dbKD {
 		return entetes;
 	}
 
+	public String  getEntCdeSent(){
+	 String val ="";
+		String query = "SELECT * FROM " + TABLENAME + " where "
+				+ fld_kd_dat_type + "=" + KD_TYPE + "  ";
+
+		Cursor cur = db.conn.rawQuery(query, null);
+		while(cur.moveToNext()){
+
+			val+=this.giveFld(cur, this.FIELD_ENTCDE_CODECDE)+"\r\n";
+
+		}
+
+		return val;
+	}
+
 	//indique si une piece est en attente d'envoi, � cause d'un plantage avant la fin par exemple
 	public structEntCde getPieceNotSend()
 	{

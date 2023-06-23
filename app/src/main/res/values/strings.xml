@@ -12,6 +12,7 @@
     <string name="activation_GPS_requise">Vous devez activer votre GPS pour poursuivre. Voulez-vous le faire maintenant ?</string>
     <string name="Synchro">Synchro</string>
 	 <string name="hotline">Hotline</string>
+    <string name="information">I</string>
 	
     <string name="Carto">Carto</string>
     <string name="Carto_maj">Mise à jour des Points d\'intérêts en cours</string>
